@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box; 
+    background: linear-gradient(60deg,rgb(205, 236, 247),rgb(167, 167, 248) 100%);
 
 }
 img{
@@ -12,27 +13,31 @@ img{
 .title{
     position: relative;
     left:10%;
-    top:20px;
+    top:9px;
     font-size:40px;
     font-style: italic;
     font-weight: lighter;
     color: rgb(166, 166, 216);
     text-shadow: rebeccapurple 0 0 10px;
+    background: none;
 
 }
 .search-bar{
     position:relative;
     left: 50%;
-    top:7px;
+    top:3px;
+    background: none;
     
 }
 .search-bar input[type=search]{
-    margin-top: 15px;
+    border-style: double;
+    border-color: rgb(127, 127, 241);
+    margin-top: 9px;
+    margin-bottom: 3px;
     font-size: 14px;
-    padding: 10px 10px;
     width:300px;
-    background-color: transparent;
-
+    padding: 10px;
+    
 }
 input[type=button]{
     padding: 10px;

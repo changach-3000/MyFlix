@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>MyFlix</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!--  start of navbar -->
+    <nav>
+      <div class="logo">
+        <!-- <img src="https://img.icons8.com/arcade/64/null/movie-projector.png" /> -->
+        <div class="title">MyFlix</div>
+        <!-- Add Search-bar -->
+        <div class="search-bar">
+          <input type="search" placeholder="What do you want to watch" />
+          <input type="button" value="search" />
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!--  Beginning of content cards -->
+   <div id="container">
+     
+   </div>
+   <!-- End of content cards -->
+
+   <section id="movieDetails">
+
+    <div class="details">
+      <img src="./images/croods.jpg" alt="Image" id="imgdet">
+      <div id="text">
+        <h4 id="titlesmovie">[Movie Title]</h4>
+        <p id="year">[year]</p>
+        <p id="genres">[genre]</p>
+        <p id="language">[language]</p>
+        <p id="rating">[rating]</p>
+        <p id="summary">[summary]</p>
+      </div>
+      <div id="btn">
+
+      </div>
+    </div>
+
+   </section>
+
+   
+    <script src="./script.js"></script>
+  </body>
 </html>

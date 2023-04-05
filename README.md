@@ -7,8 +7,8 @@ This site shows you movies available, plus the number of likes and comments for 
 - Github: [@changach-3000](https://github.com/changach-3000)
 
 ## Project SetUp
-Fork Project and clone it in your local environment
-Run it in your live server
+- Fork Project and clone it in your local environment
+- Run it in your live server
 
 
 ## Minimum Viable Product
@@ -18,9 +18,9 @@ A user can :
 3. Like and comment on a movie
 
 ## Technologies used
-JavaScript
-HTML
-CSS
+- JavaScript
+- HTML
+- CSS
 
 # Prerequisites
 Vscode or any othe IDE

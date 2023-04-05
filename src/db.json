@@ -2,7 +2,7 @@
   "movies": [
     {
       "id": 1,
-      "likes": 3,
+      "likes": 31,
       "comments": [],
       "title": "Avatar: Way of the water",
       "year": "2022",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "likes": 31,
+      "likes": 33,
       "comments": [],
       "title": "Artemis Fowl",
       "year": "2001 ",
@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "likes": 7,
+      "likes": 17,
       "comments": [],
       "title": "Encanto",
       "year": "2022 ",
@@ -80,7 +80,7 @@
     },
     {
       "id": 7,
-      "likes": 0,
+      "likes": 2,
       "comments": [],
       "title": "The Little Mermaid",
       "year": " 1989",
@@ -106,7 +106,7 @@
     },
     {
       "id": 9,
-      "likes": 1,
+      "likes": 4,
       "comments": [],
       "title": "Onward",
       "year": "2021 ",
@@ -366,7 +366,7 @@
     },
     {
       "id": 29,
-      "likes": 0,
+      "likes": 1,
       "comments": [],
       "title": "Nobody",
       "year": "2021",
@@ -379,7 +379,7 @@
     },
     {
       "id": 30,
-      "likes": 0,
+      "likes": 1,
       "comments": [],
       "title": "Memento",
       "year": "2000 ",

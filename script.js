@@ -32,8 +32,8 @@ fetch('http://localhost:3000/movies')
          counter.innerHTML = show.likes
          card.appendChild(counter)
 
-         like.addEventListener("click", (event) => {
-          event.preventDefault();
+         like.addEventListener("click", (e) => {
+          e.preventDefault();
             counter.innerHTML = parseInt(counter.innerHTML) + 1;
             const newLikes = parseInt(counter.innerHTML);
             fetch(`http://localhost:3000/movies/${show.id}`, {
@@ -41,7 +41,7 @@ fetch('http://localhost:3000/movies')
               headers: {
                 "Content-Type": "application/json",
               },
-              body: JSON.stringify({ likes: show.likes + newLikes }),
+              body: JSON.stringify({ likes : newLikes }),
             })
               .then((response) => response.json())
               .then((data) => console.log(data));
@@ -68,20 +68,16 @@ fetch('http://localhost:3000/movies')
 
         // Add Comment Section
         const comm= document.getElementById("comm").value
-        const commcarrier = document.getElementById("comments")
-        const comments = document.createElement("li")
+        const comments = document.getElementById("comments")
         const submit = document.getElementById("submit")
-        commcarrier.appendChild(comments)
 
         submit.addEventListener("click",() => {
             comments.innerText =`${comm}`
         })
-       
-        
+               
         //set popup to display on click
         popup.style.display = "block";
         
-
         const closeBtn= document.getElementById("btn")
         closeBtn.addEventListener("click", () => {
         popup.style.display = "none";

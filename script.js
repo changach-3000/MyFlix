@@ -19,13 +19,25 @@ fetch('http://localhost:3000/movies')
         const title = document.createElement("h4")
         title.innerText = show.title
         card.appendChild(title)
-        container.appendChild(content)
-
         
+        // Add like and comment  
+        const like = document.createElement("img")
+        like.src = "https://img.icons8.com/fluency/48/null/filled-like.png"
+        like.id="likecomm"
+        card.appendChild(like)
 
+        //add counter to the likes
+         const counter = document.createElement("p")
+         counter.id = "likecomm"
+         counter.innerHTML = show.likes
+         card.appendChild(counter)
+
+        like.addEventListener("click",() =>{
+            counter.innerHTML = parseInt(counter.innerHTML) + 1
+        })
       
     // add listener to the image cards so that when a user clicks on an image, it shows them the user details
-    card.addEventListener("click", () => {
+    image.addEventListener("click", () => {
         // clicked items
         const img = document.getElementById("imgdet")
         img.src = show.poster
@@ -41,24 +53,28 @@ fetch('http://localhost:3000/movies')
         rating.innerText = `Rating: ${show.rating}`
         const summary= document.getElementById("summary");
         summary.innerText = `Summary: ${show.summary}`;
+        
 
+        // Add Comment Section
+        
+        const name = document.getElementById("name").value
+        const comm= document.getElementById("comm").value
+        const comments = document.getElementById("comments")
+        const submit = document.getElementById("submit")
+        
+        submit.addEventListener("click",() => {
+            comments.innerText = `${name}`+`${comm}`
+        })
+        
+        
         //set popup to display on click
         popup.style.display = "block";
         
-        
+
         const closeBtn= document.getElementById("btn")
         closeBtn.addEventListener("click", () => {
         popup.style.display = "none";
 }); 
-      });
 })
+    })
 }))
-
-
-
-        
-
-
-
-    
-

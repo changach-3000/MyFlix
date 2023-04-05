@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box; 
-    background: linear-gradient(60deg,rgb(205, 236, 247),rgb(167, 167, 248) 100%);
+    background: linear-gradient(60deg,rgb(197, 235, 248),rgb(167, 167, 248) 100%);
 
 }
 img{
     width:200px;
     height:250px;
+}
+head{
+    background: none;
 }
 #btn{
     width:20px;
@@ -14,6 +17,16 @@ img{
     left:90%;
     background: none;
 }
+#likecomm{
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 10px;
+    background: none;  
+}
+
 .logo {
     display: flex;
 }
@@ -50,8 +63,15 @@ input[type=button]{
     padding: 10px;
     background-color:rgb(166, 166, 216);;
     margin-right: 8px;
-    padding: 12px;
-    font-size: 12px;  
+    padding: 11px;
+    font-size: 12px; 
+}
+input[type=text]{
+    padding:10px;
+    border-color:  rgb(127, 127, 241);
+    width:400px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 #container{
     display: flex;
@@ -77,39 +97,30 @@ input[type=button]{
 h4{
     font-weight: lighter;
     size: 30px;
+    background: none;
 }
-
-/* Pop up to display details*/
-#details {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-  }
-  
-#imgdet{
-    flex-basis: 40%;
+p{
+    background: none;
 }
-#text {
-    font-size: 14px;
-    padding-left: 25px;
-    flex-wrap: wrap;
-    overflow-y: scroll;
-  }
-
-  /* sample code for the pop up */
+  /* style for the pop up */
 #movieDetails{
-  margin-top: 20px;
   display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 20px;
+  background-color:rgb(194, 222, 248);
+  padding: 15px;
   width: 80%;
-  max-width: 500px;
-  border: 1px solid black;
+  border: 1px solid rgb(142, 185, 226);
   border-radius: 5px;
+  overflow-y: scroll;
+  
+}
+#commtitle{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(0, 17, 32);
 }
   
  

@@ -2,6 +2,8 @@
     "movies":[
         {
             "id":1,
+            "likes":0,
+            "comments":[],
             "title":"Avatar: Way of the water",
             "year":"2022",
             "genres":"Action,Adventure,Fantasy",
@@ -27,6 +29,8 @@
         },
         {
             "id":3,
+            "likes":0,
+            "comments":[],
             "title": "Game of Thrones",
             "year":"2011 - 2019",
             "genres":"Fantasy,Adventure",
@@ -38,6 +42,8 @@
         },
         {
             "id":4,
+            "likes":0,
+            "comments":[],
             "title":"Artemis Fowl",
             "year":"2001 ",
             "genres":" Animation, Adventure,Fiction",
@@ -49,6 +55,8 @@
         },
         {
             "id":5,
+            "likes":0,
+            "comments":[],
             "title":"Encanto",
             "year":"2022 ",
             "genres":"Animation, Fantasy,Fiction ",
@@ -60,6 +68,8 @@
         },
         {
             "id":6,
+            "likes":0,
+            "comments":[],
             "title":"Frozen",
             "year":"2019 ",
             "genres":" Drama, Fantasy,Animation",
@@ -68,8 +78,11 @@
             "rating": " 9.0",
             "summary": "Elsa, the Snow Queen, has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery. ",
             "poster":"../images/frozen.jpeg"
-        },  {
+        }, 
+        {
             "id":7,
+            "likes":0,
+            "comments":[],
             "title":"The Little Mermaid",
             "year":" 1989",
             "genres":"Drama, Fantasy ",
@@ -78,8 +91,11 @@
             "rating": " 8.5",
             "summary":"The Little Mermaid is the beloved story of Ariel, a beautiful and spirited young mermaid with a thirst for adventure. The youngest of King Triton’s daughters and the most defiant, Ariel longs to find out more about the world beyond the sea and, while visiting the surface, falls for the dashing Prince Eric. While mermaids are forbidden to interact with humans, Ariel must follow her heart. She makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land but ultimately places her life and her fathers crown in jeopardy ",
             "poster":"../images/little-mermaid.webp"
-        },  {
+        },  
+        {
             "id":8,
+            "likes":0,
+            "comments":[],
             "title":"Luca",
             "year":"2021 ",
             "genres":" Comedy, Adventure",
@@ -88,8 +104,11 @@
             "rating": " 7.4",
             "summary": "A young boy experiences an unforgettable seaside summer on the Italian Riviera filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply-held secret: he is a sea monster from another world just below the ocean's surface. ",
             "poster":"../images/luca.webp"
-        },  {
+        },  
+        {
             "id":9,
+            "likes":0,
+            "comments":[],
             "title":"Onward",
             "year":"2021 ",
             "genres":" Animation, Adventure, Comedy",
@@ -101,6 +120,8 @@
         },  
         {
             "id":10,
+            "likes":0,
+            "comments":[],
             "title":"Raya and the Last Dragon",
             "year":" 2020",
             "genres":"Animation, Action,Adventure ",
@@ -112,6 +133,8 @@
         },
         {
             "id":11,
+            "likes":0,
+            "comments":[],
             "title":"Soul",
             "year":"2020 ",
             "genres":"Family, Comedy",
@@ -124,6 +147,8 @@
         },
         {
             "id":12,
+            "likes":0,
+            "comments":[],
             "title":"Turning Red",
             "year":"2022 ",
             "genres":"Animation, Adventure,Comedy",
@@ -151,6 +176,8 @@
      
         {
             "id":14,
+            "likes":0,
+            "comments":[],
             "title":"CandyMan",
             "year":"2021",
             "genres":"Horror,Thriller",
@@ -163,6 +190,8 @@
         },
         {
             "id":15,
+            "likes":0,
+            "comments":[],
             "title":"CREED III",
             "year":" 2023",
             "genres":"Drama,Sport",
@@ -175,6 +204,8 @@
         },
         {
             "id":16,
+            "likes":0,
+            "comments":[],
             "title":"Free Guy",
             "year":"2021",
             "genres":"Action, Adventure,Comedy",
@@ -187,6 +218,8 @@
         },
         {
             "id":17,
+            "likes":0,
+            "comments":[],
             "title":"John Wick Chapter 4",
             "year":"2023 ",
             "genres":"Action,Crime,Thriller",
@@ -199,6 +232,8 @@
         },
         {
             "id":18,
+            "likes":0,
+            "comments":[],
             "title":"The Notebook",
             "year":"2004",
             "genres":"Drama,Romance",
@@ -211,6 +246,8 @@
         },
         {
             "id":19,
+            "likes":0,
+            "comments":[],
             "title":"Black Panther:Wakanda Forever",
             "year":"2022",
             "genres":"Action,Adventure,Drama",
@@ -223,6 +260,8 @@
         },
         {
             "id":20,
+            "likes":0,
+            "comments":[],
             "title":"Wonder Woman",
             "year":"2017 ",
             "genres":"Action,Adventure,Fantasy",
@@ -235,6 +274,8 @@
         },
         {
             "id":21,
+            "likes":0,
+            "comments":[],
             "title":"Blended",
             "year":"2014",
             "genres":"Comedy, Romance",
@@ -247,6 +288,8 @@
         },
         {
             "id":22,
+            "likes":0,
+            "comments":[],
             "title":"The Croods: A new Age",
             "year":"2020",
             "genres":"Animation, Adventure,Comedy",
@@ -259,6 +302,8 @@
         },
         {
             "id":23,
+            "likes":0,
+            "comments":[],
             "title":"Django Unchained",
             "year":" 2012",
             "genres":"Drama, Western",
@@ -271,6 +316,8 @@
         },
         {
             "id":24,
+            "likes":0,
+            "comments":[],
             "title":"Fight Club",
             "year":"1999",
             "genres":"Drama",
@@ -283,6 +330,8 @@
         },
         {
             "id":25,
+            "likes":0,
+            "comments":[],
             "title":"Inception",
             "year":"2010",
             "genres":"Action, Adventure, Sci-fi ",
@@ -295,6 +344,8 @@
         },
         {
             "id":26,
+            "likes":0,
+            "comments":[],
             "title":"Interstellar",
             "year":"2014",
             "genres":"Adventure,Drama,Sci-fi",
@@ -307,6 +358,8 @@
         },
         {
             "id":27,
+            "likes":0,
+            "comments":[],
             "title":"The Photograph",
             "year":"2020 ",
             "genres":"Drama, Romance",
@@ -319,6 +372,8 @@
         },
         {
             "id":28,
+            "likes":0,
+            "comments":[],
             "title":"Pulp Fiction",
             "year":" 1994",
             "genres":"Crime, Drama",
@@ -331,6 +386,8 @@
         },
         {
             "id":29,
+            "likes":0,
+            "comments":[],
             "title":"Nobody",
             "year":"2021",
             "genres":"Action,Crime,Drama",
@@ -343,6 +400,8 @@
         },
         {
             "id":30,
+            "likes":0,
+            "comments":[],
             "title":"Memento",
             "year":"2000 ",
             "genres":"Mystery,Thriller",

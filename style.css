@@ -1,14 +1,11 @@
 *{
     box-sizing: border-box; 
-    background: linear-gradient(60deg,rgb(197, 235, 248),rgb(167, 167, 248) 100%);
+    background: linear-gradient(90deg,rgb(197, 235, 248),rgb(167, 167, 248) 100%);
 
 }
 img{
     width:200px;
     height:250px;
-}
-head{
-    background: none;
 }
 #btn{
     width:20px;
@@ -29,6 +26,7 @@ head{
 
 .logo {
     display: flex;
+    background: none;
 }
 .title{
     position: relative;
@@ -38,7 +36,6 @@ head{
     font-style: italic;
     font-weight: lighter;
     color: rgb(166, 166, 216);
-    text-shadow: rebeccapurple 0 0 10px;
     background: none;
 
 }

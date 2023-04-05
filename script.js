@@ -32,10 +32,20 @@ fetch('http://localhost:3000/movies')
          counter.innerHTML = show.likes
          card.appendChild(counter)
 
-        like.addEventListener("click",() =>{
-            counter.innerHTML = parseInt(counter.innerHTML) + 1
-        })
-      
+         like.addEventListener("click", () => {
+            counter.innerHTML = parseInt(counter.innerHTML) + 1;
+            const newLikes = parseInt(counter.innerHTML);
+            fetch(`http://localhost:3000/movies/${show.id}`, {
+              method: "PATCH",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ likes: show.likes + newLikes }),
+            })
+              .then((response) => response.json())
+              .then((data) => console.log(data));
+        });
+            
     // add listener to the image cards so that when a user clicks on an image, it shows them the user details
     image.addEventListener("click", () => {
         // clicked items

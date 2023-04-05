@@ -32,7 +32,8 @@ fetch('http://localhost:3000/movies')
          counter.innerHTML = show.likes
          card.appendChild(counter)
 
-         like.addEventListener("click", () => {
+         like.addEventListener("click", (event) => {
+          event.preventDefault();
             counter.innerHTML = parseInt(counter.innerHTML) + 1;
             const newLikes = parseInt(counter.innerHTML);
             fetch(`http://localhost:3000/movies/${show.id}`, {
@@ -66,16 +67,16 @@ fetch('http://localhost:3000/movies')
         
 
         // Add Comment Section
-        
-        const name = document.getElementById("name").value
         const comm= document.getElementById("comm").value
-        const comments = document.getElementById("comments")
+        const commcarrier = document.getElementById("comments")
+        const comments = document.createElement("li")
         const submit = document.getElementById("submit")
-        
+        commcarrier.appendChild(comments)
+
         submit.addEventListener("click",() => {
-            comments.innerText = `${name}`+`${comm}`
+            comments.innerText =`${comm}`
         })
-        
+       
         
         //set popup to display on click
         popup.style.display = "block";

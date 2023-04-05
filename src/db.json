@@ -2,7 +2,7 @@
   "movies": [
     {
       "id": 1,
-      "likes": 0,
+      "likes": 3,
       "comments": [],
       "title": "Avatar: Way of the water",
       "year": "2022",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "likes": 3,
+      "likes": 15,
       "comments": [],
       "title": "Avengers: Endgame",
       "year": "2019",
@@ -106,7 +106,7 @@
     },
     {
       "id": 9,
-      "likes": 0,
+      "likes": 1,
       "comments": [],
       "title": "Onward",
       "year": "2021 ",
@@ -119,7 +119,7 @@
     },
     {
       "id": 10,
-      "likes": 0,
+      "likes": 1,
       "comments": [],
       "title": "Raya and the Last Dragon",
       "year": " 2020",

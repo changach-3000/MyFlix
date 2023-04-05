@@ -7,6 +7,13 @@ img{
     width:200px;
     height:250px;
 }
+#btn{
+    width:20px;
+    height:20px;
+    position:relative;
+    left:90%;
+    background: none;
+}
 .logo {
     display: flex;
 }
@@ -42,7 +49,6 @@ img{
 input[type=button]{
     padding: 10px;
     background-color:rgb(166, 166, 216);;
-    border: none;
     margin-right: 8px;
     padding: 12px;
     font-size: 12px;  

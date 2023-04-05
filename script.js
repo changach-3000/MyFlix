@@ -45,12 +45,8 @@ fetch('http://localhost:3000/movies')
         //set popup to display on click
         popup.style.display = "block";
         
-        // add button to close the popup
-        const btn = document.getElementById("btn");
-        const closeBtn = document.createElement("input");
-        closeBtn.type = "button";
-        closeBtn.value = "close"
-        btn.appendChild(closeBtn);
+        
+        const closeBtn= document.getElementById("btn")
         closeBtn.addEventListener("click", () => {
         popup.style.display = "none";
 }); 

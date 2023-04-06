@@ -1,7 +1,7 @@
 //fetch movies
 const popup = document.getElementById("movieDetails")
 const container = document.getElementById("container")
-fetch('https://myflix-fxlh.onrender.com/movies')
+fetch('https://myflix-z3id.onrender.com/movies')
 .then(response => response.json())
 .then((shows => {
     shows.forEach(show => {
@@ -36,7 +36,7 @@ fetch('https://myflix-fxlh.onrender.com/movies')
           e.preventDefault();
             counter.innerHTML = parseInt(counter.innerHTML) + 1;
             const newLikes = parseInt(counter.innerHTML);
-            fetch(`https://myflix-fxlh.onrender.com/movies${show.id}`, {
+            fetch(`https://myflix-z3id.onrender.com/movies${show.id}`, {
               method: "PATCH",
               headers: {
                 "Content-Type": "application/json",

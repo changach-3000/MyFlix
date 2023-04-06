@@ -69,9 +69,9 @@ fetch('https://myflix-fxlh.onrender.com/movies')
         // Add Comment Section
         const comm= document.getElementById("comm").value
         const comments = document.getElementById("comments")
-        const submit = document.getElementById("submit")
+        const sub = document.getElementById("submit")
 
-        submit.addEventListener("click",() => {
+        sub.addEventListener("click",() => {
             comments.innerText =`${comm}`
         })
                

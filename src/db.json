@@ -11,7 +11,7 @@
       "type": " Movie",
       "rating": "7.7",
       "summary": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
-      "poster": "../images/avatar.jpeg "
+      "poster": "images/avatar.jpeg "
     },
     {
       "id": 2,
